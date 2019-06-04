@@ -10,10 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @SpringBootApplication
 public class Doctors {
 
-    public static void main(String[] args){
-        SpringApplication.run(Doctors.class, args);
-    }
-
     @RequestMapping("/doctor/1")
     @ResponseBody
     public String firstDoctor(){
